@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+
+# AWS Lambda Package and Configuration Files
+*.zip
+.env  # If using a .env file for AWS credentials, avoid committing it
+
+# Frontend Files
+/dist/
+/build/
+/coverage/
+*.map
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode files (if using Visual Studio Code)
+.vscode/
+*.code-workspace
+
+# IDE files
+.idea/
+*.iml
+
+# HTML/CSS build artifacts
+*.css.map
+*.html.map
+
+# Temporary Files
+*.tmp
+*.swp
+*.bak
+*.pid
+
+# AWS SAM/Serverless Framework Build Artifacts (if applicable)
+.aws-sam/
+.serverless/
+
+# Python Virtual Environment
+venv/
+env/
+
+# Package-lock files (if you want to ensure dependencies are flexible)
+package-lock.json
+yarn.lock
+
+# JSON files with sensitive information (adjust based on usage)
+*.json
+!package.json # Negate rule to keep package.json
+
+# Ignore all .log files, debug files, and other temporary or sensitive files.
